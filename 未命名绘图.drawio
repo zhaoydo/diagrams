@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:47:33.844Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="EpywzyPu1GYRoxerlCjq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:50:52.071Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="PK6QyBApOLcUiqr3_gH9" type="github">
   <diagram id="z-6PD6wtkomJiJ1vqi9_" name="第 1 页">
     <mxGraphModel dx="677" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="fGUVQIg6vaNM79vyq9g0-3" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="290" as="sourcePoint" />
-            <mxPoint x="650" y="290" as="targetPoint" />
+            <mxPoint x="690" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fGUVQIg6vaNM79vyq9g0-9" value="" style="endArrow=none;html=1;curved=1;" edge="1" parent="1">
@@ -16,11 +16,11 @@
             <mxPoint x="275" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGUVQIg6vaNM79vyq9g0-10" value="服务重启" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-10" value="服务关闭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="254" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGUVQIg6vaNM79vyq9g0-12" value="重启完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="255" width="70" height="30" as="geometry" />
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-12" value="服务启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="255" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fGUVQIg6vaNM79vyq9g0-20" value="注册中心感知下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="294" y="254" width="120" height="30" as="geometry" />
@@ -48,9 +48,24 @@
         </mxCell>
         <mxCell id="fGUVQIg6vaNM79vyq9g0-29" value="" style="endArrow=none;html=1;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="584.9300000000001" y="290" as="sourcePoint" />
-            <mxPoint x="584.9300000000001" y="280" as="targetPoint" />
+            <mxPoint x="574.9300000000001" y="290" as="sourcePoint" />
+            <mxPoint x="574.9300000000001" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-32" value="重启完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="255" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-33" value="" style="endArrow=none;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="644.9300000000001" y="290" as="sourcePoint" />
+            <mxPoint x="644.9300000000001" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-34" value="服务内部工作进程报错期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="215" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
