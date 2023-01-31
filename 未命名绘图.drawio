@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T07:21:21.502Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="UBUQBohI6zhwCuZppt6K" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T07:22:29.325Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="5vcf76lZ-FI5SruOL9WL" type="github">
   <diagram id="z-6PD6wtkomJiJ1vqi9_" name="第 1 页">
     <mxGraphModel dx="813" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fGUVQIg6vaNM79vyq9g0-60" value="2. 通知消费者" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGUVQIg6vaNM79vyq9g0-59">
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-60" value="2. 通知服务调用方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGUVQIg6vaNM79vyq9g0-59">
           <mxGeometry x="0.133" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
