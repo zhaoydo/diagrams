@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:59:00.837Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="OTiXMb9Khw9XyBKi9RMp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T07:21:21.502Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="UBUQBohI6zhwCuZppt6K" type="github">
   <diagram id="z-6PD6wtkomJiJ1vqi9_" name="第 1 页">
-    <mxGraphModel dx="677" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,67 @@
         </mxCell>
         <mxCell id="fGUVQIg6vaNM79vyq9g0-34" value="&lt;font color=&quot;#ff8000&quot;&gt;服务关闭期间工作进程异常期&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="310" y="215" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;entryX=0.471;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fGUVQIg6vaNM79vyq9g0-36" target="fGUVQIg6vaNM79vyq9g0-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="282" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-60" value="2. 通知消费者" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGUVQIg6vaNM79vyq9g0-59">
+          <mxGeometry x="0.133" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-36" value="&lt;font color=&quot;#000000&quot;&gt;注册中心&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fGUVQIg6vaNM79vyq9g0-56" target="fGUVQIg6vaNM79vyq9g0-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-61" value="正常调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGUVQIg6vaNM79vyq9g0-50">
+          <mxGeometry x="-0.2107" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fGUVQIg6vaNM79vyq9g0-56" target="fGUVQIg6vaNM79vyq9g0-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-52" value="3. 调用其他服务提供者" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGUVQIg6vaNM79vyq9g0-51">
+          <mxGeometry x="-0.0739" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;" edge="1" parent="1" source="fGUVQIg6vaNM79vyq9g0-45" target="fGUVQIg6vaNM79vyq9g0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-55" value="1. 重启前主动下线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fGUVQIg6vaNM79vyq9g0-54">
+          <mxGeometry x="0.2529" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;" edge="1" parent="1" source="fGUVQIg6vaNM79vyq9g0-45" target="fGUVQIg6vaNM79vyq9g0-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-45" value="服务B" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-46" value="服务B1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="428" y="610" width="102" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-56" value="服务A" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="207" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-58" value="4. 服务重启" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="515" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
