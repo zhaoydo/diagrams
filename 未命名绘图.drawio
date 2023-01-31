@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:58:39.908Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="ZVrZ7ep_1YZGcZZ4m63A" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:59:00.837Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.2" etag="OTiXMb9Khw9XyBKi9RMp" type="github">
   <diagram id="z-6PD6wtkomJiJ1vqi9_" name="第 1 页">
     <mxGraphModel dx="677" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="fGUVQIg6vaNM79vyq9g0-10" value="服务关闭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="254" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fGUVQIg6vaNM79vyq9g0-12" value="服务启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fGUVQIg6vaNM79vyq9g0-12" value="服务重启" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="255" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fGUVQIg6vaNM79vyq9g0-20" value="注册中心感知下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
